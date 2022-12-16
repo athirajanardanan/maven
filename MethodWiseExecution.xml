@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/sarat/IdeaProjects/myMaven/src/test/java/class01/testNgAnnotations.java">
+        <classes>
+            <class name="class01.testNgAnnotations">
+            <methods>
+
+            <include name="firstTest"></include>
+                <include name="secTestCase"></include>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
